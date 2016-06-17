@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
+double compute(double, double, double, double *, double *);
+
 int main() {
 	double a, b, c, x1, x2, returnvalue;
 	printf("\nInput a, b, c:\n");
