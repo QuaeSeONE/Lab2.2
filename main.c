@@ -9,9 +9,9 @@ int main() {
 	scanf("%lf %lf %lf", &a, &b, &c);
 	returnvalue = compute(a, b, c, &x1, &x2);
 	if (returnvalue) 
-		printf("x1 = , x2 = ", &x1, &x2);
+		printf("x1 = , x2 = \n", x1, x2);
 	else
-		printf("No roots!");
+		printf("No roots!\n");
 }
 
 double compute(double a, double b, double c, double *x1, double *x2) {
