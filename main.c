@@ -7,7 +7,7 @@ int main() {
 	scanf("%lf %lf %lf", &a, &b, &c);
 	returnvalue = compute(a, b, c, &x1, &x2);
 	if (returnvalue) 
-		printf("x1 = , x2 = ", &.1x1, &.1x2);
+		printf("x1 = , x2 = ", &x1, &x2);
 	else
 		printf("No roots!");
 }
