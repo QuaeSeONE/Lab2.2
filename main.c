@@ -9,7 +9,7 @@ int main() {
 	scanf("%lf %lf %lf", &a, &b, &c);
 	returnvalue = compute(a, b, c, &x1, &x2);
 	if (returnvalue) 
-		printf("x1 = , x2 = \n", x1, x2);
+		printf("x1 = %lf, x2 = %lf\n", x1, x2);
 	else
 		printf("No roots!\n");
 }
