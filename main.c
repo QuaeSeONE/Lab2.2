@@ -17,7 +17,9 @@ double compute(double a, double b, double c, double *x1, double *x2) {
 	if (d < 0)
 		return 0;
 	else {
-
+	*x1 = (-b + sqrt(d)) / (2 * a);
+	*x2 = (-b - sqrt(d)) / (2 * a);
+	return 1;
 	}
 	return 0;
 }
